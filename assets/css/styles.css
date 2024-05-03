@@ -872,7 +872,9 @@ text-align: center;
   outline: none;
 }
 
-
+.project_content{
+ 
+}
 
 
 
@@ -1018,58 +1020,38 @@ border-radius: 25px;
 /*==================== FOOTER ====================*/
 
 footer{
-  max-height: 50px;
-}
-.footer_container {
-  row-gap: 3.5rem;
-}
-
-.footer_bg {
   background-color: var(--first-color-second);
+  padding: 18px;
+}
+.footer_container{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.footer_subtitle{
+  color: var(--title-color);
 
+  
 }
 
-.footer_title {
-  font-size: var(--h1-font-size);
-  margin-bottom: var(--mb-0-25);
+.footer_title{
+  margin-bottom: -10px;
 }
-
-.footer_subtitle {
-  font-size: var(--small-font-size);
-}
-
-.footer_links {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-}
-
-.footer_links:hover {
-  color: var(--first-color-lighter);
-}
-
-.footer_social {
-  font-size: 1.25rem;
-  margin-right: var(--mb-1-5);
-}
-
-.footer_social:hover {
-  color: var(--first-color-lighter);
-}
-
-.footer_copy {
-  font-size: var(--smaller-font-size);
+.social-links{
   text-align: center;
-  color: var(--text-color-light);
-  margin-top: var(--mb-3);
+  font-size: var(--h2-font-size);
+  color: white;
+  
 }
 
-.footer_title,
-.footer_subtitle,
-.footer_link,
-.footer_social {
-  color: #fff;
+.footer_copy{
+  text-align: center;
 }
+
+
+
 
 /*========== SCROLL UP ==========*/
 .scrollup {
@@ -1199,8 +1181,7 @@ footer{
   .skills_container,
   .veille_content,
   .project_container,
-  .contact_container,
-  .footer_container {
+  .contact_container {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1235,8 +1216,7 @@ footer{
   }
 
   .header,
-  .main,
-  .footer_container {
+  .main {
     padding: 0 1rem;
   }
 
@@ -1353,26 +1333,6 @@ footer{
     padding-top: 0.8rem;
   }
 
-  .footer_container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer_bg {
-    padding: 1px;
-  }
-
-  .footer_links {
-    flex-direction: row;
-    column-gap: 2rem;
-  }
-
-  .footer_social {
-    justify-self: flex-end;
-  }
-
-  .footer_copy {
-    margin-top: 4.5rem;
-  }
 }
 
 /* For large devices */

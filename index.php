@@ -9,9 +9,9 @@
     <div  class="pages" id="travaux"><?php require_once('./pages/travaux/travaux.php')?></div>
     <div  class="pages" id="projets"><?php require_once('./pages/projets/projets.php')?></div>
     <div  class="pages" id="competences"><?php require_once('./pages/competences/competences.php')?></div>
-
+    <div  class="pages" id="repertoire"><?php require_once('./pages/repertoire/repertoire.php')?></div>
     </main>
 <?php require_once('./partials/footer.php')?>
 
 </body>
-</html>
+</html

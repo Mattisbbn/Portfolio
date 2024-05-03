@@ -1,6 +1,6 @@
 <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav_logo">Mattis</a>
+            <a href="#" onclick="showPage('accueil')" class="nav_logo">Mattis</a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
@@ -20,7 +20,7 @@
                     </li>
                     <li class="nav_item">
                         <a onclick="showPage('travaux')"  class="nav_link">
-                            <i class="uil uil-scenery nav_icon"></i>Travaux
+                            <i class="uil  uil-hard-hat nav_icon"></i>Travaux
                         </a>
                     </li>
                     <li class="nav_item">
@@ -30,9 +30,16 @@
                     </li>
                     <li class="nav_item">
                         <a onclick="showPage('competences')" class="nav_link">
-                            <i class="uil uil-scenery nav_icon"></i>Compétences
+                            <i class="uil uil-brackets-curly nav_icon"></i>Compétences
                         </a>
                     </li>
+                    </li>
+                    <li class="nav_item">
+                        <a onclick="showPage('repertoire')" class="nav_link">
+                            <i class="uil uil-book-open nav_icon"></i>Répertoire
+                        </a>
+                    </li>
+                    
                 </ul>
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>

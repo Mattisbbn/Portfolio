@@ -29,13 +29,4 @@
 <br>
 <br>
 <?php include_once('themes.php') ?>
-
-
-
-
-
-
-
-
-            
-        </section>
+</section>
