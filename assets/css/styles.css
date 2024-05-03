@@ -279,6 +279,7 @@ img {
 /* show menu */
 .show-menu {
   bottom: 0;
+  z-index: 3;
 }
 
 /* Active link */
@@ -1395,9 +1396,12 @@ th,td{
 tbody{
   background-color: var(--input-color);
 }
-
 .repertoire{
+  min-height: 80vh;
+}
+.repertoire-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;}
  
