@@ -872,9 +872,8 @@ text-align: center;
   outline: none;
 }
 
-.project_content{
- 
-}
+
+
 
 
 
@@ -1384,3 +1383,26 @@ text-align: center;
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+th{
+  background-color: var(--scroll-bar-color);
+}
+
+th,td{
+  padding: 5px;
+}
+
+tbody{
+  background-color: var(--input-color);
+}
+
+.repertoire{
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+ 
+table{
+  max-width: 80%;
+}
+
+
