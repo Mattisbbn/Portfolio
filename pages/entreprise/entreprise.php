@@ -1,6 +1,6 @@
 <section class="entreprise section" id=""> 
 <h2 class="section_title">Entreprise</h2>
-    <span class="section_subtitle">Mon entreprise</span>
+    <span class="section_subtitle">L'entreprise ou j'effectue mon alternance</span>
 
 
     <h3 class="option-h3">Description</h3>

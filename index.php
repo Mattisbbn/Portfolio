@@ -1,17 +1,32 @@
 <?php require_once('./partials/head.php')?>
 <body>
-    <?php require_once('./partials/header.php')?>
-    <main class="main">
-
-    <div  class="pages" id="accueil"><?php require_once('./pages/accueil/accueil.php')?></div>
-    <div  class="pages" id="entreprise"><?php require_once('./pages/entreprise/entreprise.php')?></div>
-    <div  class="pages" id="veille"><?php require_once('./pages/veille/veille.php')?></div>
-    <div  class="pages" id="travaux"><?php require_once('./pages/travaux/travaux.php')?></div>
-    <div  class="pages" id="projets"><?php require_once('./pages/projets/projets.php')?></div>
-    <div  class="pages" id="competences"><?php require_once('./pages/competences/competences.php')?></div>
-    <div  class="pages" id="repertoire"><?php require_once('./pages/repertoire/repertoire.php')?></div>
+<main class="main">
+    <?php require_once('./partials/header.php');
+    
+    
+    if(isset($_GET["accueil"])){
+        require_once('./pages/accueil/accueil.php');
+    }elseif(isset($_GET['entreprise'])){
+        require_once('./pages/entreprise/entreprise.php');
+    }elseif(isset($_GET['veille'])){
+        require_once('./pages/veille/veille.php');
+    }elseif(isset($_GET['travaux'])){
+        require_once('./pages/travaux/travaux.php');
+    }elseif(isset($_GET['projets'])){
+        require_once('./pages/projets/projets.php');
+    }elseif(isset($_GET['competences'])){
+        require_once('./pages/competences/competences.php');
+    }elseif(isset($_GET['repertoire'])){
+        require_once('./pages/repertoire/repertoire.php');
+    }else{
+       require_once('./pages/accueil/accueil.php');
+    }
+    
+    
+    
+    ?>
     </main>
 <?php require_once('./partials/footer.php')?>
 
 </body>
-</html
+</html>
