@@ -16,9 +16,9 @@
                 
         
 
-
+            <p class="footer_copy">© Babin Mattis. All rights reserved.</p>
           
     </footer>
-    <p class="footer_copy">© Babin Mattis. All rights reserved.</p>
+    
 <script src="./assets/js/swiper-bundle.min.js"></script>
 <script src="./assets/js/main.js"></script>

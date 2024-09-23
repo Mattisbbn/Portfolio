@@ -35,7 +35,7 @@
               <div class="parcours_calender">
                 <i class="uil uil-graduation-cap"> </i>
                 BTS SIO<br />
-                <i class="uil uil-map-marker"> </i>Brissac-Quincé<br />
+                <i class="uil uil-map-marker"> </i>Belle-beille<br />
                 <i class="uil uil-calendar-alt"></i>
                 2023 - Actuellement
               </div>
@@ -91,6 +91,7 @@
       <!--==================== parcours CONTENT 2 ====================-->
       <div class="parcours_content" data-content id="work">
         <!--==================== parcours 0 ====================-->
+        
         <div class="parcours_data">
           <div></div>
 

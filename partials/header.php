@@ -1,10 +1,10 @@
 <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" onclick="showPage('accueil')" class="nav_logo">Mattis</a>
+            <a href="?accueil" class="nav_logo">Mattis</a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="?accueil" class="nav_link active-link">
+                        <a href="?accueil" class="nav_link ">
                             <i class="uil uil-estate nav_icon"></i>Accueil
                         </a>
                        
