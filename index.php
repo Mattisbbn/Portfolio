@@ -21,12 +21,11 @@
     }else{
        require_once('./pages/accueil/accueil.php');
     }
-    
-    
-    
+
+    require_once('./partials/footer.php');
     ?>
     </main>
-<?php require_once('./partials/footer.php')?>
+
 
 </body>
 </html>
