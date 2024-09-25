@@ -18,6 +18,8 @@
         require_once('./pages/competences/competences.php');
     }elseif(isset($_GET['repertoire'])){
         require_once('./pages/repertoire/repertoire.php');
+    }elseif(isset($_GET['integration-statique-apple'])){
+        require_once('pages/travaux/integration-apple.php');
     }else{
        require_once('./pages/accueil/accueil.php');
     }

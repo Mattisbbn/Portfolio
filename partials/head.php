@@ -7,5 +7,5 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Mattis</title>
+    <title>Mattis Babin</title>
 </head>
