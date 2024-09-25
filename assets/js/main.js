@@ -177,7 +177,7 @@ if(queryString === "?accueil"){
     navLinks[1].classList.add('active-link');
 }else if(queryString === "?veille"){
     navLinks[2].classList.add('active-link');
-}else if(queryString === "?travaux" || queryString === "?integration-statique-apple"){
+}else if(queryString === "?travaux" || queryString === "?integration-statique-apple"|| queryString === "?calculatrice-js"){
     navLinks[3].classList.add('active-link');
 }else if(queryString === "?integration-statique-apple"){
     navLinks[3].classList.add('active-link');

@@ -20,7 +20,10 @@
         require_once('./pages/repertoire/repertoire.php');
     }elseif(isset($_GET['integration-statique-apple'])){
         require_once('pages/travaux/integration-apple.php');
-    }else{
+    }elseif(isset($_GET['calculatrice-js'])){
+        require_once('pages/travaux/calculatrice-js.php');
+    }
+    else{
        require_once('./pages/accueil/accueil.php');
     }
 
@@ -28,6 +31,6 @@
     ?>
     </main>
 
-
+    calculatrice-js
 </body>
 </html>
