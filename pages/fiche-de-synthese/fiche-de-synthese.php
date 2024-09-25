@@ -1,5 +1,5 @@
 <section class="project section repertoire " id="project">
-    <h2 class="section_title">Repertoire</h2>
+    <h2 class="section_title">Fiche de synthèse</h2>
     <span class="section_subtitle">Tableau de synthèse</span>
     <div class="repertoire-container">
         <table>

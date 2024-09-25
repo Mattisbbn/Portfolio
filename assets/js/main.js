@@ -92,37 +92,37 @@ modalCloses.forEach((modalClose) => {
     });
 });
 
-/*==================== veille SWIPER  ====================*/
-let swiperveille = new Swiper(".project_container", {
-    cssMode: true,
-    loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
+// /*==================== veille SWIPER  ====================*/
+// let swiperveille = new Swiper(".project_container", {
+//     cssMode: true,
+//     loop: true,
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//     },
+// });
 
-/*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper(".testimonial_container", {
-    loop: true,
-    grabCursor: true,
-    spaceBetween: 48,
+// /*==================== TESTIMONIAL ====================*/
+// let swiperTestimonial = new Swiper(".testimonial_container", {
+//     loop: true,
+//     grabCursor: true,
+//     spaceBetween: 48,
 
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
-    breakpoints: {
-        568: {
-            slidePerView: 2,
-        },
-    },
-});
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//         dynamicBullets: true,
+//     },
+//     breakpoints: {
+//         568: {
+//             slidePerView: 2,
+//         },
+//     },
+// });
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {

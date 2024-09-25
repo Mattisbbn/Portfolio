@@ -16,8 +16,8 @@
         require_once('./pages/projets/projets.php');
     }elseif(isset($_GET['competences'])){
         require_once('./pages/competences/competences.php');
-    }elseif(isset($_GET['repertoire'])){
-        require_once('./pages/repertoire/repertoire.php');
+    }elseif(isset($_GET['fiche-de-synthese'])){
+        require_once('./pages/fiche-de-synthese/fiche-de-synthese.php');
     }elseif(isset($_GET['integration-statique-apple'])){
         require_once('pages/travaux/integration-apple.php');
     }elseif(isset($_GET['calculatrice-js'])){
@@ -31,6 +31,5 @@
     ?>
     </main>
 
-    calculatrice-js
 </body>
 </html>

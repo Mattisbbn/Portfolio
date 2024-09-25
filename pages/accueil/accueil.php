@@ -17,7 +17,6 @@
                         <a href="https://www.linkedin.com/in/mattisbbn/" target="_blank" class="button button--flex">
                             Linkedin<i class="uil uil-linkedin button_icon"></i>
                         </a>
-                        
                     </div>
                 </div>
             </div>
