@@ -1,11 +1,13 @@
 <!--==================== PORTFOLIO ====================-->
 <section class="portfolio section" id="portfolio">
-            <h2 class="section_title">Mes travaux</h2>
-            <span class="section_subtitle">Projets réalisés hors épreuve E5</span>
+    <h2 class="section_title">Mes travaux</h2>
+    <span class="section_subtitle">Projets réalisés hors épreuve E5</span>
 
-            <div class="portfolio_container container swiper-container">
+    <!-- <div class="portfolio_container container swiper-container">
                 <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1 ==================== -->
+                   
+                
+
                     <div class="portfolio_content grid swiper-slide">
                         <img src="./assets/img/portfolio1.png" alt="portfolio image 1" class="portfolio_img">
                         <div class="portfolio_data">
@@ -17,7 +19,9 @@
                             </a>
                         </div>
                     </div>
-                    <!--==================== PORTFOLIO 2 ====================-->
+                   
+                    
+
                     <div class="portfolio_content grid swiper-slide">
                         <img src="./assets/img/portfolio2.png" alt="portfolio image 2" class="portfolio_img">
                         <div class="portfolio_data">
@@ -29,7 +33,8 @@
                             </a>
                         </div>
                     </div>
-                    <!--==================== PORTFOLIO 3 ====================-->
+                  
+                    
                     <div class="portfolio_content grid swiper-slide">
                         <img src="./assets/img/portfolio3.png" alt="portfolio image 3" class="portfolio_img">
                         <div class="portfolio_data">
@@ -73,5 +78,23 @@
                 </div>
                 <div class="swiper-pagination"></div>
 
+            </div> -->
+
+    <div class="travaux-container">
+
+
+    
+        <a href="?integration-statique-apple" class="travaux-case">
+            <h3>Intégration statique APPLE</h3>
+            <div class="travaux-skills">
+            <img src="assets/img/Travaux/html.png" alt="">
+                <img src="assets/img/Travaux/css.png" alt="">
+                
             </div>
-        </section>
+</a>
+        
+
+
+    </div>
+
+</section>

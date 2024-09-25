@@ -1000,7 +1000,7 @@ img {
 /*==================== FOOTER ====================*/
 
 footer {
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
   padding: 18px;
 }
 .footer_container {
@@ -1025,7 +1025,7 @@ footer {
 
 .footer_copy {
   text-align: center;
- 
+  color: white;
 }
 
 /*========== SCROLL UP ==========*/
@@ -1167,11 +1167,13 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container {
     margin-left: auto;
     margin-right: auto;
   }
+
+ 
 
   body {
     margin: 0;
@@ -1190,8 +1192,7 @@ footer {
     bottom: initial;
   }
 
-  .header,
-  .main {
+  .header {
     padding: 0 1rem;
   }
 
@@ -1311,6 +1312,9 @@ footer {
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
+
+
+ 
   .header,
   .main,
   .footer_container {
@@ -1403,3 +1407,43 @@ tr:first-child th:last-child {
 .entreprise {
   margin: auto;
 }
+
+.travaux-img{
+width: 100%;
+border-radius: 15px;
+border: 3px solid black;
+filter: blur(2px);
+position: relative;
+}
+
+.travaux-container{
+  padding: 20px;
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.travaux-case{
+  width: 400px;
+  height: 230px;
+  border: 1px solid black;
+  border-radius: 15px;
+  border: 3px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.travaux-case img {
+  height: 35px;
+}
+
+.travaux-case:hover{
+  background-color: var(--first-color-lighter);
+
+}
+
