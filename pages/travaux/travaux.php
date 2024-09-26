@@ -28,6 +28,25 @@
                 <img src="assets/img/Travaux/js.png" alt="">
             </div>
         </a>
+
+        <a href="?calculatrice-pret-immobiler" class="travaux-case">
+            <h3>Pierre papier ciseaux</h3>
+            <div class="travaux-skills">
+                <img src="assets/img/Travaux/html.png" alt="">
+                <img src="assets/img/Travaux/css.png" alt="">
+                <img src="assets/img/Travaux/js.png" alt="">
+            </div>
+        </a>
+
+        <a href="?calculatrice-pret-immobiler" class="travaux-case">
+            <h3>Newsletter PHP</h3>
+            <div class="travaux-skills">
+                <img src="assets/img/Travaux/html.png" alt="">
+                <img src="assets/img/Travaux/css.png" alt="">
+                <img src="assets/img/Travaux/php.png" alt="">
+            </div>
+        </a>
+
     </div>
 
 </section>
