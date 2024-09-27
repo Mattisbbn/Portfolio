@@ -18,12 +18,6 @@
 
         require_once('./partials/footer.php');
 
-
-
-
-
-
-
         ?>
     </main>
 
