@@ -3,7 +3,7 @@
     <h2 class="section_title">Mes travaux</h2>
     <span class="section_subtitle">Projets réalisés hors épreuve E5</span>
     <div class="travaux-container">
-        <a href="?integration-statique-apple" class="travaux-case">
+        <a href="?integration-apple" class="travaux-case">
             <h3>Intégration statique Apple</h3>
             <div class="travaux-skills">
                 <img src="assets/img/Travaux/html.png" alt="">
@@ -20,7 +20,7 @@
             </div>
         </a>
 
-        <a href="?calculatrice-pret-immobiler" class="travaux-case">
+        <a href="?calculatrice-pret-immobilier" class="travaux-case">
             <h3>Calculatrice prêt immobilier</h3>
             <div class="travaux-skills">
                 <img src="assets/img/Travaux/html.png" alt="">
@@ -29,7 +29,7 @@
             </div>
         </a>
 
-        <a href="?calculatrice-pret-immobiler" class="travaux-case">
+        <a href="?pierre-papier-ciseaux" class="travaux-case">
             <h3>Pierre papier ciseaux</h3>
             <div class="travaux-skills">
                 <img src="assets/img/Travaux/html.png" alt="">
@@ -38,7 +38,7 @@
             </div>
         </a>
 
-        <a href="?calculatrice-pret-immobiler" class="travaux-case">
+        <a href="?newsletter-php" class="travaux-case">
             <h3>Newsletter PHP</h3>
             <div class="travaux-skills">
                 <img src="assets/img/Travaux/html.png" alt="">
