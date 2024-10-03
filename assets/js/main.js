@@ -92,37 +92,7 @@ modalCloses.forEach((modalClose) => {
     });
 });
 
-// /*==================== veille SWIPER  ====================*/
-// let swiperveille = new Swiper(".project_container", {
-//     cssMode: true,
-//     loop: true,
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-// });
 
-// /*==================== TESTIMONIAL ====================*/
-// let swiperTestimonial = new Swiper(".testimonial_container", {
-//     loop: true,
-//     grabCursor: true,
-//     spaceBetween: 48,
-
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//         dynamicBullets: true,
-//     },
-//     breakpoints: {
-//         568: {
-//             slidePerView: 2,
-//         },
-//     },
-// });
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {
@@ -177,7 +147,7 @@ if(queryString === "?accueil"){
     navLinks[1].classList.add('active-link');
 }else if(queryString === "?veille"){
     navLinks[2].classList.add('active-link');
-}else if(queryString === "?travaux" || queryString === "?integration-statique-apple"|| queryString === "?calculatrice-js"){
+}else if(queryString === "?travaux" || queryString === "?integration-statique-apple"|| queryString === "?calculatrice-js" || queryString === "?newsletter-php" ||queryString === "?pierre-papier-ciseaux" || queryString === "?calculatrice-pret-immobilier"){
     navLinks[3].classList.add('active-link');
 }else if(queryString === "?integration-statique-apple"){
     navLinks[3].classList.add('active-link');

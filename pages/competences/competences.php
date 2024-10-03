@@ -55,7 +55,6 @@
             </div>
         </div>
 
-
         <!--==================== SKILLS 2 ====================-->
         <div class="skills_content skills_close">
             <div class="skills_header">

@@ -1,10 +1,10 @@
 <section class="section travaux-section" >
 
-<h1 class="section_title">Intégration statique Apple</h1>
+<h1 class="section_title">Pierre Papier Ciseaux</h1>
 
-<img class="travaux-img" src="assets/img/Travaux/Maquette apple.png" alt="">
+<img class="travaux-img" src="assets/img/Travaux/pierre-feuille-ciseaux.png" alt="">
 
-<a href="https://mattisbbn.github.io/Apple/" target="_blank" class="button travaux-button">Acceder au site</a>
+<a href="https://mattisbbn.github.io/Pierre-Papier-Ciseaux/" target="_blank" class="button travaux-button">Acceder au site</a>
 
 <h2>Description des tâches</h2>
 

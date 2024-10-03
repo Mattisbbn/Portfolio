@@ -220,7 +220,7 @@ img {
   color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 825px) {
   .nav_menu {
     position: fixed;
     bottom: -100%;
@@ -1008,7 +1008,7 @@ img {
 /*==================== FOOTER ====================*/
 
 footer {
-  background-color: var(--first-color);
+  background-color:rgba(106, 115, 124, 0.208);
   padding: 18px;
 }
 .footer_container {
@@ -1175,7 +1175,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 825px) {
   .container {
     margin-left: auto;
     margin-right: auto;

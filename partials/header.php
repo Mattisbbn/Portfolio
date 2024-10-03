@@ -37,7 +37,7 @@
                     </li>
                     <li class="nav_item">
                         <a href="?fiche-de-synthese" class="nav_link">
-                            <i class="uil uil-book-open nav_icon"></i>Répertoire
+                            <i class="uil uil-book-open nav_icon"></i>Fiche de synthèse
                         </a>
                     </li>
                     
