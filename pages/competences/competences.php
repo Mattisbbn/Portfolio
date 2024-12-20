@@ -166,7 +166,6 @@
                         <span class="skills_percentage skills_github"></span>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
