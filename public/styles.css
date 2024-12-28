@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    font-family: "Poppins";
+    margin: 0;
+
+
+    
+}
+h5,p{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.text-gray{
+    color: #6A737C;
+}
+
+.bg-blue{
+    background-color: #579CE0;
+}
+
+.text-white{
+    color: white;
+}
+.land-icons{
+    transition: 0.2s;
+}
+
+.land-icons:hover{
+    background-color: #4387cb;
+}
+
+#logo{
+    transition: 0.2s color;
+}
+#logo:hover{
+    color: #579CE0;
+}
+
+#navbar li{
+    font-size: 14px;
+    transition: 0.2s color;
+    
+}
+
+#navbar li:hover{
+    color: #579CE0;
+}
+
+#theme-button{
+    font-size: 20px;
+    transition: 0.2s ;
+}
+
+#theme-button:hover{
+    color: #579CE0;
+    transform: rotate(20deg);
+}
+
+.home-section{
+    min-height: calc(90vh - 78px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width:0.6rem;
+    background-color:#e2e6e9;
+    border-radius:0.5rem
+    }
+    
+::-webkit-scrollbar-thumb {
+    background-color:#c6ccd2;
+    border-radius:0.5rem
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background-color:#9fa6ad;
+}
+
+
+
+
+@media (max-width: 767px) {
+    #navbar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      transition: bottom 0.5s ease; 
+    }
+ 
+  }
+
+.journey-line{
+    width: 2px;
+    height: calc(100% - 14px);
+    background-color: #579CE0;
+}
+
+
+.dots{
+    height: 14px;
+    width: 14px;
+    background-color: #579CE0;
+    border-radius: 50%;
+ 
+}

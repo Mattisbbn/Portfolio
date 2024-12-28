@@ -1,0 +1,18 @@
+<header class="d-flex col-lg-8 m-auto p-4 justify-content-between align-items-center">
+    <a class="fw-medium fs-5" id="logo" href="">Mattis</a>
+
+    <ul id="navbar" class="d-none larger-shadow d-md-flex justify-content-between align-items-center p-md-0 p-4 rounded-bottom rounded-5">
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center align-items-center pb-md-0 ms-4 pb-4"><i class="uil uil-estate nav_icon d-md-none fs-5"></i><a href="home">Accueil</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-user nav_icon d-md-none fs-5"></i><a href="entreprise">Entreprise</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-file-alt nav_icon d-md-none fs-5"></i><a href="veille">Veille</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-hard-hat nav_icon d-md-none fs-5"></i><a href="travaux">Travaux</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-scenery nav_icon d-md-none fs-5"></i><a href="projets">Projets</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-brackets-curly nav_icon d-md-none fs-5"></i><a href="competences">Compétences</a></li>
+        <li class="fw-medium me-4 text-center d-flex flex-column justify-content-center pb-md-0 pb-4"><i class="uil uil-book-open nav_icon d-md-none fs-5 "></i><a href="synthese">Fiche de synthèse</a></li>
+        <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
+    </ul>
+    <i id="open-navbar" class="uil uil-apps ms-3 d-block d-md-none"></i>
+    <div class="d-md-block d-none"></div>
+</header>
+
+<script src="public/script/header.js"></script>
