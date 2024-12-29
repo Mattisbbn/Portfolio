@@ -1,3 +1,4 @@
 <?php 
-require_once "view/home/partials/landpage.php";
-require_once "view/home/partials/journey.php";
+require_once "view/home/partials/landpage.html";
+require_once "view/home/partials/journey.html";
+require_once "view/home/partials/formation.html";
