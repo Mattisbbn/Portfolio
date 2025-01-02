@@ -38,6 +38,10 @@ ul{
     background-color:  var(--main-color);
 }
 
+.text-blue{
+    color: rgb(87, 156, 224);
+}
+
 .text-white{
     color: white;
 }
@@ -150,3 +154,9 @@ ul{
 footer{
     background-color: #e2e6e9;
 }
+
+
+.full-h{
+    min-height: calc(100vh - 78px);
+}
+
