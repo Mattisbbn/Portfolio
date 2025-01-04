@@ -160,3 +160,17 @@ footer{
     min-height: calc(100vh - 78px);
 }
 
+.project-box{
+    width: 400px;
+    height: 230px;
+    border: 3px solid black;
+    transition: 0.3s background-color;
+}
+
+.project-box:hover{
+    background-color: #579be07c;
+} 
+
+.project-icon-box img{
+    height: 35px;
+}

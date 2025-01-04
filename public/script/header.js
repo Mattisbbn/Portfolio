@@ -2,11 +2,11 @@ const navbarElements = document.querySelectorAll("#navbar li");
 const navbar = document.querySelector("#navbar");
 
 let currentUrl = window.location.pathname;
-    currentUrl = currentUrl.split("/");
+currentUrl = currentUrl.split("/");
 
-const lastSegment = currentUrl[currentUrl.length - 1];
+const page = currentUrl[2];
 
-switch (lastSegment) {
+switch (page) {
   case "entreprise":
     changeHeaderColor(1);
     break;
@@ -31,24 +31,18 @@ switch (lastSegment) {
     break;
 }
 
+
 function changeHeaderColor(navElement) {
   navbarElements[navElement].style.color = "#579CE0";
 }
 
-
-const openNavbarButton = document.querySelector("#open-navbar")
-
+const openNavbarButton = document.querySelector("#open-navbar");
 
 openNavbarButton.addEventListener("click", () => changeNavBarStatus("open"));
 
-
-function changeNavBarStatus(action){
-
-  if(action === "open"){
-    navbar.classList.add("d-grid")
-    navbar.classList.remove("d-none")
+function changeNavBarStatus(action) {
+  if (action === "open") {
+    navbar.classList.add("d-grid");
+    navbar.classList.remove("d-none");
   }
-
-
-
 }
