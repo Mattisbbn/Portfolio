@@ -174,3 +174,7 @@ footer{
 .project-icon-box img{
     height: 35px;
 }
+
+.project-img{
+    border: 3px solid black;
+}
