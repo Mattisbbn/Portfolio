@@ -178,3 +178,7 @@ footer{
 .project-img{
     border: 3px solid black;
 }
+
+.dynamic-h5{
+    font-size: calc(15px + 0.5vw);
+}
