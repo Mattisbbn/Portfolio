@@ -13,7 +13,7 @@ switch (page) {
   case "veille":
     changeHeaderColor(2);
     break;
-  case "travaux":
+  case "missions":
     changeHeaderColor(3);
     break;
   case "projets":
