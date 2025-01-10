@@ -72,6 +72,8 @@ function changeThemeColor(theme) {
   if (theme === "dark") {
     root.style.setProperty('--background-color', "#161F27")
     root.style.setProperty('--primary-text-color', "white");
+    root.style.setProperty('--paragraph-color', "#BABFC4");
+    root.style.setProperty('--footer-bgcolor', "#273139");
     themeButton.classList.remove("uil-moon")
     themeButton.classList.add("uil-sun")
     saveTheme(theme)
@@ -79,6 +81,8 @@ function changeThemeColor(theme) {
   }else if(theme === "light"){
     root.style.setProperty('--background-color', "white")
     root.style.setProperty('--primary-text-color', "#212529");
+    root.style.setProperty('--paragraph-color', "#6A737C");
+    root.style.setProperty('--footer-bgcolor', "#e2e6e9");
     themeButton.classList.remove("uil-sun")
     themeButton.classList.add("uil-moon")
     saveTheme(theme)

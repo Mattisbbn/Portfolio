@@ -7,9 +7,10 @@
     --paragraph-color: #6A737C;
     --background-color: white;
     --theme-transition: 0.5s;
+    --footer-bgcolor:#e2e6e9;
 }
 
-h1, h2, h3, h4,h5, h6,a {
+h1, h2, h3, h4,h5, h6,a,i {
     color: var(--primary-text-color) !important;
     transition: var(--theme-transition);
 }
@@ -19,6 +20,10 @@ body{
     transition: var(--theme-transition);
 }
 
+footer{
+    background-color: var(--footer-bgcolor);
+    
+}
 
 p{
     color: var(--paragraph-color);
@@ -45,12 +50,13 @@ ul{
     list-style: none;
 }
 
-.selected{
+.selected a, .selected i, .selected h5{
     color: var(--main-color) !important;
 }
 
-.text-gray{
-    color: #6A737C;
+.text-gray, .text-gray:not(.selected) h5{
+    /* color: #6A737C !important; */
+    color: var(--paragraph-color) !important;
 }
 
 .primary-color{
@@ -61,9 +67,6 @@ ul{
     background-color:  var(--main-color);
 }
 
-.text-blue{
-    color: rgb(87, 156, 224);
-}
 
 .text-white{
     color: white;
@@ -178,9 +181,7 @@ ul{
     margin-bottom: -10px;
 }
 
-footer{
-    background-color: #e2e6e9;
-}
+
 
 
 .full-h{
@@ -190,7 +191,7 @@ footer{
 .project-box{
     width: 400px;
     height: 230px;
-    border: 3px solid black;
+    border: 3px solid var(--primary-text-color);
     transition: 0.3s background-color;
 }
 

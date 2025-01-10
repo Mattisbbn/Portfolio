@@ -10,10 +10,10 @@ journeyButtons.forEach((button, index) => {
 
 function changeJourneyButtonColor(buttonId) {
     journeyButtons.forEach(element => {
-        element.style.color = "#6A737C";
+        element.classList.remove("selected");
     });
-
-    journeyButtons[buttonId].style.color = "#579CE0"; 
+    
+    journeyButtons[buttonId].classList.add("selected");
 }
 
 function displayContainer(index){
