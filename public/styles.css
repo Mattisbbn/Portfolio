@@ -8,9 +8,27 @@
     --background-color: white;
     --theme-transition: 0.5s;
     --footer-bgcolor:#e2e6e9;
+    --scrollbar-thumb:#c6ccd2;
+    --scrollbar:#c6ccd2;
 }
 
-h1, h2, h3, h4,h5, h6,a,i {
+/* Scrollbar */
+::-webkit-scrollbar {
+    width:0.6rem;
+    background-color:#e2e6e9;
+    border-radius:0.5rem
+    }
+    
+::-webkit-scrollbar-thumb {
+    background-color:#c6ccd2;
+    border-radius:0.5rem
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background-color:#9fa6ad;
+}
+
+h1, h2, h3, h4,h5:not(.staywhite), h6,a,i:not(.staywhite) {
     color: var(--primary-text-color) !important;
     transition: var(--theme-transition);
 }
@@ -114,21 +132,7 @@ ul{
     min-height: calc(90vh - 78px);
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-    width:0.6rem;
-    background-color:#e2e6e9;
-    border-radius:0.5rem
-    }
-    
-::-webkit-scrollbar-thumb {
-    background-color:#c6ccd2;
-    border-radius:0.5rem
-}
-    
-::-webkit-scrollbar-thumb:hover {
-    background-color:#9fa6ad;
-}
+
 
 
 
@@ -141,7 +145,7 @@ ul{
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      background-color: white;
+      background-color: var(--background-color);
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       transition: bottom 0.5s ease; 
     }

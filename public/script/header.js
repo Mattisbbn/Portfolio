@@ -37,15 +37,29 @@ function changeHeaderColor(navElement) {
 
 const openNavbarButton = document.querySelector("#open-navbar");
 
-openNavbarButton.addEventListener("click", () => changeNavBarStatus("open"));
+openNavbarButton.addEventListener("click", () => changeNavBarStatus());
 
-function changeNavBarStatus(action) {
-  if (action === "open") {
+function changeNavBarStatus() {
+ 
+ 
+  
+
+  if (checkNavbarStatus() === "closed") {
     navbar.classList.add("d-grid");
     navbar.classList.remove("d-none");
+  }else{
+    navbar.classList.remove("d-grid");
+    navbar.classList.add("d-none");
   }
 }
 
+function checkNavbarStatus(){
+  if(openNavbarButton.classList.contains('d-none')){
+    return 'closed'
+  }else{
+    return 'closed'
+  }
+}
 
 const themeButton = document.querySelector("#theme-button")
 
@@ -62,11 +76,7 @@ themeButton.addEventListener("click", ()=>{
   }
 })
 
-
-
-
 const root = document.documentElement;
-
 
 function changeThemeColor(theme) {
   if (theme === "dark") {
@@ -98,7 +108,6 @@ function saveTheme(theme){
   }
 }
 
-
 function getSavedTheme(){
   
   const cookies = document.cookie.split(";")
@@ -118,3 +127,4 @@ function getSavedTheme(){
 }
 
 getSavedTheme()
+
