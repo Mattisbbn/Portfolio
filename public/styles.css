@@ -9,19 +9,19 @@
     --theme-transition: 0.5s;
     --footer-bgcolor:#e2e6e9;
     --scrollbar-thumb:#c6ccd2;
-    --scrollbar:#c6ccd2;
+    --scrollbar:#e2e6e9;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
     width:0.6rem;
-    background-color:#e2e6e9;
+    background-color:var(--scrollbar);
     border-radius:0.5rem
-    }
+}
     
 ::-webkit-scrollbar-thumb {
-    background-color:#c6ccd2;
-    border-radius:0.5rem
+    background-color:var(--scrollbar-thumb);
+    border-radius:0.5rem;
 }
     
 ::-webkit-scrollbar-thumb:hover {

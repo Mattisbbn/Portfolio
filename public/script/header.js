@@ -41,9 +41,6 @@ openNavbarButton.addEventListener("click", () => changeNavBarStatus());
 
 function changeNavBarStatus() {
  
- 
-  
-
   if (checkNavbarStatus() === "closed") {
     navbar.classList.add("d-grid");
     navbar.classList.remove("d-none");
@@ -84,15 +81,18 @@ function changeThemeColor(theme) {
     root.style.setProperty('--primary-text-color', "white");
     root.style.setProperty('--paragraph-color', "#BABFC4");
     root.style.setProperty('--footer-bgcolor', "#273139");
+    root.style.setProperty('--scrollbar', "#0f1519");
+    root.style.setProperty('--scrollbar-thumb', "#223039");
     themeButton.classList.remove("uil-moon")
     themeButton.classList.add("uil-sun")
     saveTheme(theme)
-
   }else if(theme === "light"){
     root.style.setProperty('--background-color', "white")
     root.style.setProperty('--primary-text-color', "#212529");
     root.style.setProperty('--paragraph-color', "#6A737C");
     root.style.setProperty('--footer-bgcolor', "#e2e6e9");
+    root.style.setProperty('--scrollbar', "#e2e6e9");
+    root.style.setProperty('--scrollbar-thumb', "#c6ccd2");
     themeButton.classList.remove("uil-sun")
     themeButton.classList.add("uil-moon")
     saveTheme(theme)
