@@ -64,9 +64,17 @@ a{
     text-decoration: none;
 }
 
-ul{
+header ul{
     list-style: none;
 }
+
+.no-animation{
+    transition: 0s;
+}
+
+ul {
+    list-style-type: circle;
+  }
 
 .selected a, .selected i, .selected h5{
     color: var(--main-color) !important;
@@ -213,4 +221,8 @@ ul{
 
 .dynamic-h5{
     font-size: calc(15px + 0.5vw);
+}
+
+.projects-icon-list img{
+    height: 50px;
 }
