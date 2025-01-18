@@ -5,3 +5,13 @@ RewriteBase /portfolio-new/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
+
+<Files config.php>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files package.json>
+    Order Allow,Deny
+    Deny from all
+</Files>

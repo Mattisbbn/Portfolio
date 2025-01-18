@@ -14,7 +14,7 @@
 
         <h3 class="text-center fw-semibold pt-2">Contexte</h3>
         <p class="dynamic-paragraph text-center">
-            Apprentissage HTML / CSS
+            Apprentissage HTML / CSS en début d'année de BTS SIO
         </p>
     <h3 class="text-center fw-semibold pt-2 pb-2">Moyens utilisés</h3>
         <div class="projects-icon-list d-flex justify-content-center  pb-4">

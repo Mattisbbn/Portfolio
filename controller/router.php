@@ -36,11 +36,18 @@ $pageActions = new pageActions;
 $page = $pageActions->getCurrentpage();
 $subPage = $pageActions->getSubPage($page);
 
-
 if($subPage){
+    require_once 'view/partials/header.html';
     require_once("view/{$page}/{$subPage}/{$subPage}.php");
+    require_once 'view/partials/footer.php';
 }elseif($pageActions->pageExists($page)){
+    require_once 'view/partials/header.html';
     require_once("view/{$page}/{$page}.php");
-} else {
-    require_once("view/home/home.php");
+    require_once 'view/partials/footer.php';
+} elseif($page === "") {
+    require_once 'view/partials/header.html';
+    require_once 'view/home/home.php';
+    require_once 'view/partials/footer.php';
+}else{
+    require_once("view/404/404.php");
 }

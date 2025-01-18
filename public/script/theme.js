@@ -1,5 +1,4 @@
 const themeButton = document.querySelector("#theme-button")
-
 themeButton.addEventListener("click", ()=>{
 
   if(themeButton.classList.contains("uil-moon")){
@@ -38,7 +37,7 @@ function changeThemeColor(theme) {
     saveTheme(theme)
   }
 }
-
+getSavedTheme();
 function saveTheme(theme){
   if(theme === "dark"){
     document.cookie = "theme=dark"
@@ -61,17 +60,6 @@ function getSavedTheme(){
   });
 
   if(theme && theme === 'dark'){
-    
     changeThemeColor(theme)
-    // body.classList.remove("no-animation");
   }
 }
-
-getSavedTheme()
-
-const body = document.querySelector('body')
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//  body.classList.remove("no-animation");
-// });
