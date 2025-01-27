@@ -8,9 +8,10 @@
 
         <div class="d-flex align-items-center justify-content-center pt-2">
             <p class="ps-1 pe-1">© <?php echo(date('Y'))?> | Mattis Babin //</p>
-            <a class="ps-1 pe-1" href=""><p>Plan du site //</p></a>
-            <a class="ps-1 pe-1" href=""><p>Mentions légales //</p></a>
-            <a href=""><p>Contact</p></a>
+            <a class="ps-1 pe-1" href="./plan-du-site"><p>Plan du site //</p></a>
+           
+            <a href=""><p>Contact // </p></a>
+            <a class="ps-1 pe-1" href=""><p>Mentions légales</p></a>
         </div>
 </footer>
 <script src="public/script/theme.js"></script>

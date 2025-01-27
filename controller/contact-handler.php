@@ -21,10 +21,8 @@ class contactHandler{
             $this->email = $_POST['email'];
             $this->rawMessage = $_POST['message'];
 
-
             $this->sendMail();
       
-            
         }
     }
 
@@ -36,10 +34,7 @@ class contactHandler{
         Email : {$this->email}<br><br>
         Message : {$this->rawMessage}
         ";
-
         return $message;
-        
-
     }
 
 

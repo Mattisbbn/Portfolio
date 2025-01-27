@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan du site - Votre Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+            position: relative;
+        }
+        li::before {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            width: 10px;
+            height: 1px;
+            background: #333;
+        }
+        li::after {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: #333;
+        }
+        li:last-child::after {
+            height: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plan du site</h1>
+    <ul>
+        <li><a href="/">Accueil</a></li>
+        <li>
+            <a href="/about">À propos</a>
+            <ul>
+                <li><a href="/about/cv">Mon CV</a></li>
+                <li><a href="/about/competences">Mes compétences</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/projects">Projets</a>
+            <ul>
+                <li><a href="/projects/projet-1">Projet 1</a></li>
+                <li><a href="/projects/projet-2">Projet 2</a></li>
+                <li><a href="/projects/projet-3">Projet 3</a></li>
+            </ul>
+        </li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</body>
+</html>
