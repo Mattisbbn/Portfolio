@@ -228,3 +228,8 @@ ul {
 .projects-icon-list img{
     height: 50px;
 }
+
+
+.hover-underline:hover {
+    text-decoration: underline;
+}

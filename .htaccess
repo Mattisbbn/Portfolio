@@ -1,11 +1,9 @@
 RewriteEngine On
 RewriteBase /portfolio/
-
 # Redirige toutes les requêtes sauf si le fichier ou le dossier existe
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
-
 <Files config.php>
     Order Allow,Deny
     Deny from all
