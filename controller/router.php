@@ -19,8 +19,8 @@ class pageActions{
         $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $url = str_replace('/webtraining/', '', $url);
         $segments = explode('/', $url);
-        if(isset($segments[3])){
-            $subpage = $segments[3] ;
+        if(isset($segments[2])){
+            $subpage = $segments[2] ;
             if(!empty($page) && file_exists("view/{$page}/{$subpage}/{$subpage}.php")){
                 return $subpage;
             }else{
