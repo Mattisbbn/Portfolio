@@ -13,5 +13,5 @@
             <a href="contact"><p>Contact</p></a>
         </div>
 </footer>
-<script src="public/script/theme.js"></script>
+<script src="/public/script/theme.js"></script>
 </html>

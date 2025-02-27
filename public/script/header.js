@@ -4,7 +4,7 @@ const navbar = document.querySelector("#navbar");
 let currentUrl = window.location.pathname;
 currentUrl = currentUrl.split("/");
 
-const page = currentUrl[2];
+const page = currentUrl[1];
 
 switch (page) {
   case "entreprise":

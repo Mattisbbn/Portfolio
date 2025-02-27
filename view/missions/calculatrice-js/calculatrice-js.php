@@ -2,7 +2,7 @@
     <h1 class="text-center fw-semibold mt-4 mb-4 pt-2 page-title">Calculatrice JS</h1>
     
     <div class="col-12 d-flex">
-        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="public/img/projects/calculatrice-js.png" alt="">
+        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="/public/img/projects/calculatrice-js.png" alt="">
     </div>
   
     <h3 class="text-center fw-semibold pt-4">Tâches réalisées</h3>
@@ -18,9 +18,9 @@
         </p>
     <h3 class="text-center fw-semibold pt-2 pb-2">Moyens utilisés</h3>
         <div class="projects-icon-list d-flex justify-content-center  pb-4">
-            <img class="me-2" src="public/img/icons/logo-html.png" alt="logo-css">
-            <img class="me-2" src="public/img/icons/logo-css.png" alt="logo-html">
-            <img class="me-2" src="public/img/icons/logo-js.png" alt="logo-figma">
+            <img class="me-2" src="/public/img/icons/logo-html.png" alt="logo-css">
+            <img class="me-2" src="/public/img/icons/logo-css.png" alt="logo-html">
+            <img class="me-2" src="/public/img/icons/logo-js.png" alt="logo-figma">
         </div>
    
     <div class="d-flex justify-content-center  pb-4">

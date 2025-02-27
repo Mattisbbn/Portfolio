@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /portfolio/
+RewriteBase /
 # Redirige toutes les requêtes sauf si le fichier ou le dossier existe
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

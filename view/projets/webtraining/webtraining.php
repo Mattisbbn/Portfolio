@@ -2,7 +2,7 @@
     <h1 class="text-center fw-semibold mt-4 mb-4 pt-2 page-title">Webtraining</h1>
     
     <div class="col-12 d-flex">
-        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="public/img/projects/webtraining.png" alt="">
+        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="/public/img/projects/webtraining.png" alt="">
     </div>
   
     <h3 class="text-center fw-semibold pt-4">Tâches réalisées</h3>
@@ -24,10 +24,10 @@
            Projet au sein de MyDigitalSchool, inspirée sur l'application <a target="_blank" href="https://www.bsoft.fr/bienvenue-formation/">Bienvenue Formation</a>.
     <h3 class="text-center fw-semibold pt-2 pb-2">Moyens utilisés</h3>
         <div class="projects-icon-list d-flex justify-content-center  pb-4">
-            <img class="me-2" src="public/img/icons/logo-php.png" alt="logo-php">
-            <img class="me-2" src="public/img/icons/logo-js.png" alt="logo-javascript">
-            <img class="me-2" src="public/img/icons/logo-bootsrap.png" alt="logo-bootsrap">
-            <img class="me-2" src="public/img/icons/logo-mysql.png" alt="logo-mysql">
+            <img class="me-2" src="/public/img/icons/logo-php.png" alt="logo-php">
+            <img class="me-2" src="/public/img/icons/logo-js.png" alt="logo-javascript">
+            <img class="me-2" src="/public/img/icons/logo-bootsrap.png" alt="logo-bootsrap">
+            <img class="me-2" src="/public/img/icons/logo-mysql.png" alt="logo-mysql">
         </div>
    
     <div class="d-flex justify-content-center mb-5 ">
