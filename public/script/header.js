@@ -7,8 +7,8 @@ currentUrl = currentUrl.split("/");
 const page = currentUrl[1];
 
 switch (page) {
-  case "entreprise":
-    changeHeaderColor(1);
+  case "":
+    changeHeaderColor(0);
     break;
   case "veille":
     changeHeaderColor(2);
@@ -23,9 +23,7 @@ switch (page) {
     changeHeaderColor(5);
     break;
 
-  default:
-    changeHeaderColor(0);
-    break;
+
 }
 
 function changeHeaderColor(navElement) {

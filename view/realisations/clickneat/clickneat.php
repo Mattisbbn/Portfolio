@@ -21,6 +21,17 @@
         <h3 class="text-center fw-semibold  my-4">Expression des besoins</h3>
         <p class="dynamic-paragraph ">Une gestion complète et optimisée des restaurants, permettant de suivre en temps réel les menus, les commandes et les réservations. L’ensemble des opérations est parfaitement synchronisé avec les horaires d’ouverture, assurant une expérience fluide et sur-mesure pour chaque client. L’application Click&Eat permet de répondre à ces besoins en offrant les outils nécessaires à l’ajustement des offres, à la gestion des réservations et au suivi des commandes, accessibles en ligne pour un pilotage efficace des établissements à tout moment.</p>
 
+
+
+        <h3 id="competences" class="text-center fw-semibold  my-4">Compétences</h3>
+            <ul>
+              <li><p class="dynamic-paragraph ">Gérer le patrimoine informatique : Sauvegardes automatiques</p></li>
+              <li><p class="dynamic-paragraph ">Répondre aux incidents et aux demandes d’assistance et d’évolution : Formulaire de contact</p></li>
+              <li><p class="dynamic-paragraph ">Travailler en mode projet : Diagramme Gantt</p></li>
+              <li><p class="dynamic-paragraph ">Mettre à disposition des utilisateurs un service informatique : Déploiement sur un VPS</p></li>
+              
+            </ul>
+
         <h3 class="text-center fw-semibold  my-4">Fonctionnalités MVP (Minimum Viable Product)</h3>
             <ul>
                 <li><p class="dynamic-paragraph ">Gestion des restaurants </p></li>
@@ -53,15 +64,15 @@
 
 
         <h3 class="text-center fw-semibold  my-4 pb-2">Moyens utilisés</h3>
-        <div class="projects-icon-list d-flex justify-content-center pb-4">
-        <img src="/public/img/icons/logo-laravel.svg" alt="" />
-        <img src="/public/img/icons/laravel-blade.png" alt="" />
-        <img src="/public/img/icons/logo-php.png"/>
-        <img src="/public/img/icons/logo-js.png" alt="" />
-        <img src="/public/img/icons/logo-mysql.png" alt="" />
-        <img src="/public/img/icons/logo-tailwind.svg" alt="" />
-        <img src="/public/img/icons/logo-bootsrap.png"/>
-        </div>
+            <div class="projects-icon-list d-flex justify-content-center pb-4">
+            <img src="/public/img/icons/logo-laravel.svg" alt="" />
+            <img src="/public/img/icons/laravel-blade.png" alt="" />
+            <img src="/public/img/icons/logo-php.png"/>
+            <img src="/public/img/icons/logo-js.png" alt="" />
+            <img src="/public/img/icons/logo-mysql.png" alt="" />
+            <img src="/public/img/icons/logo-tailwind.svg" alt="" />
+            <img src="/public/img/icons/logo-bootsrap.png"/>
+            </div>
    
         <div class="d-flex justify-content-center  pb-4">
             <a href="https://clickneat.mattisbabin.fr" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">Acceder au site</a>

@@ -37,6 +37,34 @@ $router->map('GET', '/competences', function() {
     require_once 'view/partials/footer.php';
 }, 'competences');
 
+$router->map('GET', '/mentions-legales', function() {
+    require_once 'view/partials/header.html';
+    require_once 'view/mentions-legales/mentions-legales.html';
+    require_once 'view/partials/footer.php';
+}, 'mentions-legales');
+
+$router->map('GET', '/veille', function() {
+    require_once 'view/partials/header.html';
+    require_once 'view/veille/veille.html';
+    require_once 'view/partials/footer.php';
+}, 'veille');
+
+$router->map('GET', '/veille/[*:slug]', function($slug) {
+  
+    if(file_exists("view/veille/{$slug}.html")) {
+        require_once 'view/partials/header.html';
+        require_once("view/veille/{$slug}.html");
+        require_once 'view/partials/footer.php';
+    } else {
+        require_once("view/404/404.php");
+        header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+        exit;
+    }
+ 
+}, 'veille.project');
+
+
+
 $match = $router->match();
 
 if ($match && is_callable($match['target'])) {
