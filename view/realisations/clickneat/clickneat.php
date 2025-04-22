@@ -2,14 +2,16 @@
     <h1 class="text-center fw-semibold mt-4 mb-4 pt-2 page-title">Click&Eat</h1>
     
     <div class="col-12 d-flex">
-        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="/public/img/projects/ovnyl.jpg" alt="">
+        <img class="col-11 col-xl-6 mt-4 m-auto project-img rounded-4" src="/public/img/projects/clickneat.png" alt="">
     </div>
   
     <div class="col-6 m-auto">
       
 
         <h3 class="text-center fw-semibold my-4">Contexte</h3>
-        <p class="dynamic-paragraph ">La startup Click’n Eat nous mandate pour réaliser une application de réservation de restaurant avec prise de commande au préalable, comme un “restaurant sans attente”. Le repas est donc prêt dès notre arrivée.</p>
+        <p class="dynamic-paragraph ">Ce projet a été réalisé dans le cadre de ma formation en BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers). L’objectif pédagogique était de mettre en pratique nos compétences en développement web avec Laravel, tout en travaillant en conditions proches d’un environnement professionnel. 
+        <br><br>
+        Ce projet de groupe avait pour but de concevoir une application web de type “Click & Collect”, appliquée ici au domaine de la restauration, sous le nom fictif de Click&Eat. L’application devait permettre aux clients de réserver une table dans un restaurant, tout en ayant la possibilité de passer leur commande à l’avance, afin de réduire le temps d’attente une fois sur place.</p>
 
         <h3 class="text-center fw-semibold  my-4">Objectifs</h3>
         <p class="dynamic-paragraph">Proposer une solution optimisée pour plusieurs restaurants qui proposent des menus différents.</p>
@@ -17,7 +19,7 @@
         
 
         <h3 class="text-center fw-semibold  my-4">Expression des besoins</h3>
-        <p class="dynamic-paragraph ">Une gestion complète et optimisée des restaurants, permettant de suivre en temps réel les menus, les commandes et les réservations. L’ensemble des opérations est parfaitement synchronisé avec les horaires d’ouverture, assurant une expérience fluide et sur-mesure pour chaque client. L’application Click’n Eat permet de répondre à ces besoins en offrant les outils nécessaires à l’ajustement des offres, à la gestion des réservations et au suivi des commandes, accessibles en ligne pour un pilotage efficace des établissements à tout moment.</p>
+        <p class="dynamic-paragraph ">Une gestion complète et optimisée des restaurants, permettant de suivre en temps réel les menus, les commandes et les réservations. L’ensemble des opérations est parfaitement synchronisé avec les horaires d’ouverture, assurant une expérience fluide et sur-mesure pour chaque client. L’application Click&Eat permet de répondre à ces besoins en offrant les outils nécessaires à l’ajustement des offres, à la gestion des réservations et au suivi des commandes, accessibles en ligne pour un pilotage efficace des établissements à tout moment.</p>
 
         <h3 class="text-center fw-semibold  my-4">Fonctionnalités MVP (Minimum Viable Product)</h3>
             <ul>
@@ -42,7 +44,7 @@
             <ul>
                 <li><p class="dynamic-paragraph ">Laravel</p></li>
                 <li><p class="dynamic-paragraph ">Déploiement sur un nom de domaine</p></li>
-                <li><p class="dynamic-paragraph ">Intégration continue/p></li>
+                <li><p class="dynamic-paragraph ">Intégration continue</p></li>
                 <li><p class="dynamic-paragraph ">Gérer l’optimisation des fichiers de production</p></li>
                 <li><p class="dynamic-paragraph ">Template</p></li>
                 <li><p class="dynamic-paragraph ">Certificat SSL (HTTPs)</p></li>
@@ -52,9 +54,13 @@
 
         <h3 class="text-center fw-semibold  my-4 pb-2">Moyens utilisés</h3>
         <div class="projects-icon-list d-flex justify-content-center pb-4">
-            <img src="/public/img/icons/logo-laravel.svg" alt="" />
-            <img src="/public/img/icons/logo-mysql.png" alt="" />
-            <img src="/public/img/icons/logo-tailwind.svg" alt="" />
+        <img src="/public/img/icons/logo-laravel.svg" alt="" />
+        <img src="/public/img/icons/laravel-blade.png" alt="" />
+        <img src="/public/img/icons/logo-php.png"/>
+        <img src="/public/img/icons/logo-js.png" alt="" />
+        <img src="/public/img/icons/logo-mysql.png" alt="" />
+        <img src="/public/img/icons/logo-tailwind.svg" alt="" />
+        <img src="/public/img/icons/logo-bootsrap.png"/>
         </div>
    
         <div class="d-flex justify-content-center  pb-4">

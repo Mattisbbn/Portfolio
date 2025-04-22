@@ -15,7 +15,7 @@
         </li>
         <li><p>Entreprise</p></li>
         <li><p>Veille</p></li>
-        <li><p>Missions</p></li>
+        <li><p>Réalisations</p></li>
         <li><p>Projets</p></li>
         <li><p>Compétences</p></li>
         <li><p>Fiche de synthèse</p></li>

@@ -13,17 +13,14 @@ switch (page) {
   case "veille":
     changeHeaderColor(2);
     break;
-  case "missions":
+  case "realisations":
     changeHeaderColor(3);
     break;
-  case "projets":
+  case "competences":
     changeHeaderColor(4);
     break;
-  case "competences":
-    changeHeaderColor(5);
-    break;
   case "synthese":
-    changeHeaderColor(6);
+    changeHeaderColor(5);
     break;
 
   default:
@@ -32,6 +29,7 @@ switch (page) {
 }
 
 function changeHeaderColor(navElement) {
+  console.log(navElement);
   navbarElements[navElement].classList.add("selected");
 }
 
