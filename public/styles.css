@@ -237,3 +237,7 @@ ul {
 .hover-underline:hover {
     text-decoration: underline;
 }
+
+.link-underline-hover:hover {
+    text-decoration: underline;
+  }

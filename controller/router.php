@@ -12,6 +12,12 @@ $router->map('GET', '/contact', function() {
     require_once 'view/partials/footer.php';
 }, 'contact');
 
+$router->map('GET', '/synthese', function() {
+    require_once 'view/partials/header.html';
+    require_once 'view/synthese/synthese.html';
+    require_once 'view/partials/footer.php';
+}, 'synthese');
+
 $router->map('GET', '/realisations', function() {
     require_once 'view/partials/header.html';
     require_once 'view/realisations/partials/realisations.html';
@@ -47,8 +53,6 @@ $router->map('GET', '/realisations/[*:slug]/documentation/dictionnaire/[*:file]'
         exit;
     }
 }, 'realisations.project.documentation.dictionnaire');
-
-
 
 
 
