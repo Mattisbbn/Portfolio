@@ -2,10 +2,40 @@
     <h1 class="text-center fw-semibold mt-4 mb-4 pt-2 page-title">Click&Eat | Documentation</h1>
 
     <div class="col-8 m-auto">
-        <h2 class="text-center fw-semibold mt-4 mb-4 pt-2">Base de données : </h2>
 
+
+
+
+        <button class="d-flex justify-content-center align-items-center mt-4 mb-4 m-0 border-0 bg-transparent shadow-none text-decoration-none" type="button" data-bs-toggle="collapse" data-bs-target="#dictionnaire">
+            <h2 class="text-center fw-semibold  pt-2">Base de données </h2>
+            <i class="uil uil-arrow-right fs-2 mt-1"></i>
+        </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <div class="collapse mt-3 show" id="dictionnaire">
         <h3>Dictionnaires de données :</h3>
         <table class="table">
+            <head>
+                <style>
+                    body {
+                        background: #fff !important;
+                    }
+                </style>
+            </head>
             <thead>
                 <tr>
                     <th>Nom de la table</th>
@@ -60,9 +90,232 @@
             </tbody>
         </table>
 
-        <h3>Modèle Conceptuel des Données :</h3>
+      
+          
+          
+            
+      
+
+
+
+
+
+
+
+        <h3 class="mt-4 mb-3">Modèle Conceptuel des Données :</h3>
+        <img class="img-fluid" src="/public/img/doc/clickneat/MCD_clickneat.svg" alt="Modèle Conceptuel des Données">
+
+
+        <h3 class="mt-4 mb-3">Structure de la Base de Données :</h3>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Restaurant -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">1. Restaurant</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>Clé primaire :</strong> id</li>
+                            <li><strong>Relations :</strong>
+                                <ul class="list-unstyled">
+                                    <li>Un restaurant a plusieurs catégories (1-n)</li>
+                                    <li>Un restaurant a plusieurs tables (1-n)</li>
+                                        <li>Un restaurant a plusieurs commandes (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">2. User</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Un utilisateur peut être associé à un restaurant (1-1)</li>
+                                        <li>Un utilisateur peut avoir plusieurs articles dans son panier (1-n)</li>
+                                        <li>Un utilisateur peut passer plusieurs commandes (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">3. Category</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> restaurant_id → restaurant(id)</li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Une catégorie contient plusieurs items (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">4. Item</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> category_id → category(id)</li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Un item peut avoir plusieurs ingrédients (1-n)</li>
+                                        <li>Un item peut avoir plusieurs allergènes (1-n)</li>
+                                        <li>Un item peut être dans plusieurs paniers (1-n)</li>
+                                        <li>Un item peut être dans plusieurs commandes (via order_item) (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ingredient -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">5. Ingredient</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> item_id → item(id)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Allergen -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">6. Allergen</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> item_id → item(id)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Table -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">7. Table</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> restaurant_id → restaurant(id)</li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Une table peut avoir plusieurs réservations (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Reservation -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">8. Reservation</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clé étrangère :</strong> table_id → table(id)</li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Une réservation peut être associée à une commande (1-1)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Cart -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">9. Cart</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clés étrangères :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>item_id → item(id)</li>
+                                        <li>user_id → user(id)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Order -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">10. Order</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clés étrangères :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>user_id → user(id)</li>
+                                        <li>restaurant_id → restaurant(id)</li>
+                                        <li>reservation_id → reservation(id)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Relations :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>Une commande contient plusieurs order_items (1-n)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Order Item -->
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">11. Order_item</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Clé primaire :</strong> id</li>
+                                <li><strong>Clés étrangères :</strong>
+                                    <ul class="list-unstyled">
+                                        <li>order_id → order(id)</li>
+                                        <li>item_id → item(id)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <h3 class="mt-4">Modèle Physique de Données :</h3>
+        <img class="img-fluid" src="/public/img/doc/clickneat/MPD_Clickneat.svg" alt="Modèle Physique de Données">
+
     </div>
-   
+        <h2 class="text-center fw-semibold mt-4 mb-4 pt-2">Diagrammes UML : </h2>
+
+        <img class="img-fluid" src="/public/img/doc/clickneat/diagramme_contexte.svg" alt="Diagramme de Contexte">
+
         <div class="d-flex justify-content-center  pb-4">
             <a href="https://clickneat.mattisbabin.fr" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">Acceder au site</a>
         </div>

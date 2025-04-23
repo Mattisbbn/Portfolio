@@ -53,4 +53,3 @@ function checkNavbarStatus(){
     return 'closed'
   }
 }
-

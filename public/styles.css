@@ -8,6 +8,7 @@
     --background-color: white;
     --theme-transition: 0.5s;
     --footer-bgcolor:#e2e6e9;
+    --bg-gray: #e2e6e9;
     --scrollbar-thumb:#c6ccd2;
     --scrollbar:#e2e6e9;
 }
@@ -93,6 +94,10 @@ ul {
 
 .bg-blue{
     background-color:  var(--main-color);
+}
+
+.bg-gray{
+    background-color: var(--bg-gray);
 }
 
 
