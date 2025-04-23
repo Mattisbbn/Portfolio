@@ -1,6 +1,5 @@
 <?php 
 $router = new AltoRouter();
-
 $router->map('GET', '/', function() {
     require_once 'view/partials/header.html';
     require_once 'view/home/home.php';
@@ -19,6 +18,49 @@ $router->map('GET', '/realisations', function() {
     require_once 'view/partials/footer.php';
 }, 'realisations');
 
+$router->map('GET', '/realisations/[*:slug]/documentation', function($slug) {
+    require_once 'view/partials/header.html';
+    if(file_exists("view/realisations/{$slug}/documentation.html")) {
+        require_once("view/realisations/{$slug}/documentation.html");
+    } else {
+        require_once("view/404/404.php");
+        header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+        exit;
+    }
+    require_once 'view/partials/footer.php';
+}, 'realisations.project.documentation');
+
+
+
+
+$router->map('GET', '/realisations/[*:slug]/documentation/dictionnaire/[*:file]', function($slug, $file) {
+    $path = "doc/{$slug}/dictionnaire/{$file}";
+
+    
+    if(file_exists($path)) {
+        header("Content-Type: application/pdf");
+        header("Content-Disposition: inline; filename=" . $file);
+        readfile($path);
+    } else {
+        echo "File not found";
+        header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+        exit;
+    }
+}, 'realisations.project.documentation.dictionnaire');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $router->map('GET', '/realisations/[*:slug]', function($slug) {
     require_once 'view/partials/header.html';
     if(file_exists("view/realisations/{$slug}/{$slug}.php")) {
@@ -30,6 +72,10 @@ $router->map('GET', '/realisations/[*:slug]', function($slug) {
     }
     require_once 'view/partials/footer.php';
 }, 'realisations.project');
+
+
+
+
 
 $router->map('GET', '/competences', function() {
     require_once 'view/partials/header.html';
