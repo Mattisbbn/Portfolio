@@ -11,16 +11,16 @@ switch (page) {
     changeHeaderColor(0);
     break;
   case "veille":
-    changeHeaderColor(2);
+    changeHeaderColor(1);
     break;
   case "realisations":
-    changeHeaderColor(3);
+    changeHeaderColor(2);
     break;
   case "competences":
-    changeHeaderColor(4);
+    changeHeaderColor(3);
     break;
   case "synthese":
-    changeHeaderColor(5);
+    changeHeaderColor(4);
     break;
 
 
