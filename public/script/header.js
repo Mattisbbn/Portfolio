@@ -22,8 +22,6 @@ switch (page) {
   case "synthese":
     changeHeaderColor(4);
     break;
-
-
 }
 
 function changeHeaderColor(navElement) {

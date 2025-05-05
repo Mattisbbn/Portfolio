@@ -9,7 +9,7 @@
 
 
         <h3 class="text-center fw-semibold my-4">Contexte</h3>
-        <p class="dynamic-paragraph ">Ce projet a été réalisé dans le cadre de ma formation en BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers). L’objectif pédagogique était de mettre en pratique nos compétences en développement web avec Laravel, tout en travaillant en conditions proches d’un environnement professionnel.
+        <p class="dynamic-paragraph ">Ce projet a été réalisé dans le cadre de ma formation en BTS SIO. L’objectif pédagogique était de mettre en pratique nos compétences en développement web avec Laravel, tout en travaillant en conditions proches d’un environnement professionnel.
             <br><br>
             Ce projet de groupe avait pour but de concevoir une application web de type “Click & Collect”, appliquée ici au domaine de la restauration, sous le nom fictif de Click&Eat. L’application devait permettre aux clients de réserver une table dans un restaurant, tout en ayant la possibilité de passer leur commande à l’avance, afin de réduire le temps d’attente une fois sur place.
         </p>
@@ -23,23 +23,53 @@
         <p class="dynamic-paragraph ">Une gestion complète et optimisée des restaurants, permettant de suivre en temps réel les menus, les commandes et les réservations. L’ensemble des opérations est parfaitement synchronisé avec les horaires d’ouverture, assurant une expérience fluide et sur-mesure pour chaque client. L’application Click&Eat permet de répondre à ces besoins en offrant les outils nécessaires à l’ajustement des offres, à la gestion des réservations et au suivi des commandes, accessibles en ligne pour un pilotage efficace des établissements à tout moment.</p>
 
 
-
-        <h3 id="competences" class="text-center fw-semibold  my-4">Compétences</h3>
-        <ul>
-            <li>
-                <p class="dynamic-paragraph ">Gérer le patrimoine informatique : Sauvegardes automatiques</p>
+        <h3 id="competences" class="text-center fw-semibold  my-4 ">Compétences mises en œuvre</h3>
+        <ul  class="bg-gray p-4 rounded-3 list-unstyled">
+            <li class="mb-2">
+                <h5 class="dropdown-toggle cursor-pointer" data-bs-toggle="dropdown" aria-expanded="false">Gérer le patrimoine informatique</h5>
+                <ul class="list-unstyled">
+                    <li class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><p class="dropdown-item">Sauvegardes automatiques</p></li>
+                            <li><p class="dropdown-item">Utilisation d'un framework => normes et standards</p></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <p class="dynamic-paragraph ">Répondre aux incidents et aux demandes d’assistance et d’évolution : Formulaire de contact</p>
+            <li class="mb-2">
+                <h5 class="dropdown-toggle cursor-pointer" data-bs-toggle="dropdown" aria-expanded="false">Répondre aux incidents et aux demandes d’assistance et d’évolution</h5>
+                <ul class="list-unstyled">
+                    <li class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><p class="dropdown-item">Formulaire de contact</p></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <p class="dynamic-paragraph ">Travailler en mode projet : Diagramme Gantt</p>
+            <li class="mb-2">
+                <h5 class="dropdown-toggle cursor-pointer" data-bs-toggle="dropdown" aria-expanded="false">Travailler en mode projet</h5>
+                <ul class="list-unstyled">
+                    <li class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><p class="dropdown-item">Diagramme Gantt</p></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <p class="dynamic-paragraph ">Mettre à disposition des utilisateurs un service informatique : Déploiement sur un VPS</p>
+            <li class="mb-2">
+                <h5 class="dropdown-toggle cursor-pointer" data-bs-toggle="dropdown" aria-expanded="false">Mettre à disposition des utilisateurs un service informatique</h5>
+                <ul class="list-unstyled">
+                    <li class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><p class="dropdown-item">Déploiement sur un VPS</p></li>
+                            <li><p class="dropdown-item">Tests unitaires</p></li>
+                            <li><p class="dropdown-item">Certificat SSL</p></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-
         </ul>
+
 
         <h3 class="text-center fw-semibold  my-4">Fonctionnalités MVP (Minimum Viable Product)</h3>
         <ul>
@@ -106,52 +136,6 @@
         </ul>
 
 
-        <h3 class="text-center fw-semibold  my-4">Compétences mises en œuvre</h3>
-        <ul>
-            <li class="p-1">
-                <h5 class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Gérer le patrimoine informatique</h5>
-                <ul class="list-unstyled">
-                    <li class="dropdown">
-                        <ul class="dropdown-menu">
-                            <li><p class="dropdown-item">Sauvegardes automatiques</p></li>
-                            <li><p class="dropdown-item">Utilisation d'un framework => normes et standards</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="p-1">
-                <h5 class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Répondre aux incidents et aux demandes d’assistance et d’évolution</h5>
-                <ul class="list-unstyled">
-                    <li class="dropdown">
-                        <ul class="dropdown-menu">
-                            <li><p class="dropdown-item">Formulaire de contact</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="p-1">
-                <h5 class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Travailler en mode projet</h5>
-                <ul class="list-unstyled">
-                    <li class="dropdown">
-                        <ul class="dropdown-menu">
-                            <li><p class="dropdown-item">Diagramme Gantt</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="p-1">
-                <h5 class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Mettre à disposition des utilisateurs un service informatique</h5>
-                <ul class="list-unstyled">
-                    <li class="dropdown">
-                        <ul class="dropdown-menu">
-                            <li><p class="dropdown-item">Déploiement sur un VPS</p></li>
-                            <li><p class="dropdown-item">Tests unitaires</p></li>
-                            <li><p class="dropdown-item">Certificat SSL</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
 
 
         <h3 class="text-center fw-semibold  my-4 pb-2">Moyens utilisés</h3>

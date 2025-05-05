@@ -147,7 +147,9 @@ ul {
 }
 
 
-
+.cursor-pointer{
+    cursor: pointer;
+}
 
 
 
