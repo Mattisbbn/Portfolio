@@ -30,8 +30,8 @@
             <img class="me-2" src="/public/img/icons/logo-mysql.png" alt="logo-mysql">
         </div>
    
-    <div class="d-flex justify-content-center mb-5 ">
-        <a href="" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">En cours d'hébergement ...</a>
+        <div class="d-flex justify-content-center  pb-4">
+        <a href="https://webtraining.mattisbabin.fr/login" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">Acceder au site</a>
     </div>
   
 </section>
