@@ -25,7 +25,7 @@
         </div>
    
     <div class="d-flex justify-content-center  pb-4">
-        <a href="https://www.compagniecotecour.fr/" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">Acceder au site</a>
+        <a href="https://www.pepitepeps.com/" target="_blank" class="text-white fw-medium dynamic-paragraph bg-blue p-3 m-1 rounded-3 land-icons border-0">Acceder au site</a>
     </div>
         
 </section>
